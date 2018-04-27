@@ -50,7 +50,7 @@ export class CustomTemplateComponent implements OnInit {
 
     @Component({
       selector: 'app-dynamic-component',
-      template: template
+      template: text
     })
     class DynamicComponent implements OnInit {
       text: any;

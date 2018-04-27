@@ -7,7 +7,7 @@ import {RenderComponent} from './render/render.component';
 import {AlertComponent} from './alert/alert.component';
 import {RouterModule} from '@angular/router';
 import {Route} from './router';
-import { CustomTemplateComponent } from './custom-template/custom-template.component';
+import {CustomTemplateComponent} from './custom-template/custom-template.component';
 
 
 @NgModule({
@@ -21,7 +21,7 @@ import { CustomTemplateComponent } from './custom-template/custom-template.compo
     BrowserModule,
     RouterModule.forRoot(Route, {enableTracing: true}),
   ],
-  entryComponents: [AlertComponent],
+  entryComponents: [AlertComponent, CustomTemplateComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
