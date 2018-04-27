@@ -7,13 +7,15 @@ import {RenderComponent} from './render/render.component';
 import {AlertComponent} from './alert/alert.component';
 import {RouterModule} from '@angular/router';
 import {Route} from './router';
+import { CustomTemplateComponent } from './custom-template/custom-template.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RenderComponent,
-    AlertComponent
+    AlertComponent,
+    CustomTemplateComponent
   ],
   imports: [
     BrowserModule,
